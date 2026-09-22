@@ -1,0 +1,26 @@
+# Reachy Mini
+reachy_mini[mujoco]==1.11.0
+
+# Core
+opencv-python>=4.10
+numpy>=1.26,<3
+psutil>=6.0
+
+# BlazePose
+mediapipe>=0.10
+
+# ViTPose
+transformers>=4.50
+Pillow>=10.0
+
+# Utility
+requests>=2.31
+tqdm>=4.66
+huggingface-hub>=0.26
+
+# PyTorch / video model helpers
+fvcore>=0.1.5.post20221221
+einops>=0.8
+
+# ViTPose image processing
+scipy>=1.10,<2
